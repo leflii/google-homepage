@@ -2,9 +2,107 @@
 <html>
 	<head></head>
 	<body>
-	    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></img>
+	<style>
+		.header {
+	  	display: inline-block;
+	  	margin-top: 10px;
+		margin-left: 20px;	}
+		.header2 {
+	  	display: inline-block;
+	  	margin-top: 10px;
+		margin-left: 1100px;	}
+		li:last-child {
+		padding: 0;	}
+		a {
+		color: #000000;
+		font-size: 12px;	}
+		.logo {
+		text-align: center;
+		padding-top: 125px;	}
+		
+		form.example button {
+		  float: right;
+		  width: 10%;
+		  padding: 5px;
+		  background: #FFFFFF;
+		  color: #999999;
+		  font-size: 17px;
+		  border: 1px white;
+		  border-left: 50px;
+		  cursor: pointer;	}
+	
+		form.example button:hover {
+	 	 background: #0b7dda;	}
+		
+		.searchbox {
+		text-align: center;
+		padding-bottom: 5px;	}
+		
+		.search {
+		display: inline-block;	}
+		.swanky {
+		display: inline-block;	}
+	
+		.footer{
+		display: flex;	
+		ul.footer {
+		list-style-type: none;
+		margin: 0;
+		padding: 10px;
+		border: 10px;
+		display: table;
+		width: 100%;			}
+		
+		li {
+
+	  	display: table-cell;
+	}}
+	  	
+	  	.footer {
+	  	display: inline-block;
+	  	margin-top: 200px;		}
+	  	
+	  	.footer2 {
+	  	display: inline-block;
+	  	margin-top: 200px;
+		margin-left: 900px;		}
+		
+	</style>
+	    
+	   <header> <div class="header">
+	  		<a href="default.asp">About</a>
+	  		<a href="store.asp">Store</a></div>
+	  		<div class="header2">
+	  		<a href="mail.asp">Gmail</a>
+	 	    <a href="images.asp">Images</a></div>
+	    </ul> </header>
+	    <div class="logo">
+		    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></img></div>
 		<div>
-			<input type="text"></input>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<form class="example" action="action_page.php">
+			 <button type="submit"><i class="fa fa-search"></i></button></form>
+			</div>
+		
+		<div class="searchbox">
+			<div>
+				<input value="" size="80"></input> </div>
+			</div>
+		<center> <div class="search"> 
+		<input value="Google Search" aria-label="Google Search" type="submit">
 		</div>
-	</body>
-</html>
+		<div class="swanky"> 
+		<input value="I'm Feeling Swanky" aria-label="I'm Feeling Swanky" type="submit">
+		</div></center>
+	</body> 
+	<footer>
+	<div class="footer">
+	  		<a href="advert.asp">Advertising</a>
+	  		<a href="biz.asp">Business</a>
+	  		<a href="how.asp">How Search works</a></div>
+	<div class="footer2">	 		
+	 		<a href="privacy.asp">Privacy</a>
+	 		<a href="terms.asp">Terms</a>
+	 		<a href="settings.asp">Settings</a></div></footer>
+	
+			</html>
